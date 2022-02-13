@@ -1,0 +1,44 @@
+.user-input {
+    background-color: #f2f2f2;
+}
+
+.error {
+    background-color: #f76c5e;
+}
+
+#board {
+    border: 4px solid #000000;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+td {
+    height: 40px;
+    width: 40px;
+    border: 1px solid;
+    text-align: center;
+    padding: 0;
+}
+
+#palette {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    border: 4px solid;
+}
+
+body {
+    font-size: 200%;
+    text-align: center;
+}
+
+td:nth-child(3n) {
+    border-right:solid ;
+}
+
+tr:nth-child(3n) {
+    border-bottom:solid ;
+}
+
