@@ -42,3 +42,19 @@ tr:nth-child(3n) {
     border-bottom:solid ;
 }
 
+#palette{
+    border: 4px solid #000000;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+#palette-row{
+    border: 4px solid #000000;
+    border-collapse: collapse;
+}
+#num{
+
+    border: 4px solid;
+    text-align: center;
+    padding: 0;
+}
