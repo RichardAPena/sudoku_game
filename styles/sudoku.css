@@ -6,12 +6,12 @@
     background-color: #f76c5e;
 }
 
-#board {
-    border: 4px solid #000000;
+#sudoku-board {
+    border: 2px solid;
     border-collapse: collapse;
     margin-left: auto;
     margin-right: auto;
-
+    /* border-right: solid; */
 }
 
 td {
@@ -19,42 +19,68 @@ td {
     width: 40px;
     border: 1px solid;
     text-align: center;
-    padding: 0;
+
+    /* border-left: solid;
+    border-right: solid;
+    border-top: solid;
+    border-bottom: solid; */
+    /* padding: 0; */
 }
 
-#palette {
-    margin-left: auto;
-    margin-right: auto;
-    border-collapse: collapse;
-    border: 4px solid;
-}
 
 body {
-    font-size: 200%;
+    font-size: 100%;
     text-align: center;
 }
 
 td:nth-child(3n) {
-    border-right:solid ;
+    border-right: solid;
+    /* border: 4px; */
 }
 
 tr:nth-child(3n) {
-    border-bottom:solid ;
+    border-bottom: solid;
 }
 
-#palette{
-    border: 4px solid #000000;
+.num-palette {
+    border: 2px solid;
     border-collapse: collapse;
     margin-left: auto;
     margin-right: auto;
 }
-#palette-row{
-    border: 4px solid #000000;
+
+.num-palette-row {
+    border: 2px solid #000000;
     border-collapse: collapse;
 }
-#num{
 
-    border: 4px solid;
+#num {
+    /* width: 60px; */
+    /* height: 60px; */
+    border: 2px solid;
     text-align: center;
     padding: 0;
+}
+
+.sudoku-icon {
+    height: 35px;
+    width: 50px;
+    padding-right: 10px;
+}
+.nav {
+    width: 100%;
+}
+
+.navbar {
+    width: 100%;
+    font-family: sans-serif;
+    background-color: #292929;
+}
+
+.nav-link {
+    color: white;
+}
+.navbar-brand {
+    text-decoration: none;
+    color: white;
 }

@@ -4,9 +4,96 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="styles/sudoku.css">
         <title>High Scores</title>
     </head>
     <body>
-        <img> 
+        <!-- Navbar -->
+        <!-- <div>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container">
+                  <img src="images\logo.gif" size="50" width="50"> Sudoku Centre
+                  <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                  >
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="sudoku.html">Play Game</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="high_scores.html">High Scores</a>
+                      </li>
+                      
+                   
+                    </ul>
+                    
+                  </div>
+                </div>
+              </nav>
+        </div>   -->
+
+        <div class="container-fullwidth hidden-sm hidden-sx">
+            <ul class="navbar me-auto">
+                <div class="d-flex justify-content-around">
+                    <li class="navbar-brand">
+                        <a class="navbar-brand"><img src="images/logo.gif" class="sudoku-icon" id ="brand">Sudoku Centre</a>
+                    </li>
+                    <li class="nav-item d-none d-lg-block">
+                        <a class="nav-link active" href="sudoku.html">Play Game</a>
+                    </li>
+                    <li class="nav-item d-none d-lg-block">
+                        <a class="nav-link" href="high_scores.html">High Scores</a>
+                    </li>
+                    <li class="nav-item d-block d-sm-none">
+                        <a class="nav-link" href="#"><img src="images/hamburger_icon.png" class="img-fluid" style="width: 4rem; height: 2rem;"></a>
+                    </li>
+                </div>
+              </ul>
+        </div>
+
+        <div class="container text-center">
+            <table class="table">
+                <thead>
+                <tr>
+                    <th scope="col">Date</th>
+                    <th scope="col">Duration</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>2021/01/17</td>
+                    <td>3:41</td>
+                </tr>
+                <tr>
+                    <td>2021/01/21</td>
+                    <td>4:01</td>
+                </tr>
+                <tr>
+                    <td>2021/02/01</td>
+                    <td>2:52</td>
+                </tr>
+                <tr>
+                    <td>2021/02/17</td>
+                    <td>3:08</td>
+                </tr>
+                <tr>
+                    <td>2021/03/02</td>
+                    <td>2:51</td>
+                </tr>
+                
+                </tbody>
+            </table>
+        </div>
+
     </body>
 </html>
