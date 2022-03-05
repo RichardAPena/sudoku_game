@@ -62,11 +62,16 @@ tr:nth-child(3n) {
     padding: 0;
 }
 
+#num:hover {
+    background-color: yellow;
+}
+
 .sudoku-icon {
     height: 35px;
     width: 50px;
     padding-right: 10px;
 }
+
 .nav {
     width: 100%;
 }
